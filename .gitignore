@@ -10,9 +10,12 @@ __pycache__/
 dist/
 build/
 
-# YOLO training runs & weights (ไฟล์ใหญ่มาก)
+# YOLO training runs (checkpoint + logs ใหญ่เกิน)
 runs/
+
+# Model weights — ignore ทั้งหมดยกเว้น best.pt
 *.pt
+!best.pt
 
 # Dataset images (ใหญ่เกิน push ไม่ไหว)
 LPR plate.v1i.yolov11/train/

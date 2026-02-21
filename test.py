@@ -15,7 +15,8 @@ import cv2
 from ultralytics import YOLO
 
 # --- Config ---
-MODEL_PATH = "runs/detect/runs/detect/lpr_plate_ocr/weights/best.pt"
+# MODEL_PATH = "runs/detect/runs/detect/lpr_plate_ocr/weights/best.pt"
+MODEL_PATH = "best.pt"  # โมเดลที่ดีที่สุด (project root)
 DATA_YAML = "LPR plate.v1i.yolov11/data.yaml"
 DEVICE = 0  # GPU
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
