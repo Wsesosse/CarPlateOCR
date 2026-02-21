@@ -1,4 +1,4 @@
-Debug model guide
+Debug model(YOLOv11) guide
 
 =====Linux(Bash)=====
 
